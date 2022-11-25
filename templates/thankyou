@@ -1,1 +1,15 @@
-
+<head>
+  <meta charset="UTF-8" />
+  <title>Say Hello</title>
+  <link rel="stylesheet" href="static/main.css" />
+</head>
+<form method="POST">
+  <main class="main">
+    <h1 class="t-center">Thank You</h1>
+    <br />
+    <p class="t-center-email">We will get email you a qoute to</p>
+    <br />
+    <h3 class="t-center-email">{{email}}</h3>
+    <br />
+  </main>
+</form>
